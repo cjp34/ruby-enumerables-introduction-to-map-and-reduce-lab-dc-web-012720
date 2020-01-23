@@ -58,7 +58,6 @@ end
 def reduce_to_any_true(source_array)
   index = 0
   while index < source_array.length do
-    binding.pry
     if source_array[index] == nil
       return false
     else
