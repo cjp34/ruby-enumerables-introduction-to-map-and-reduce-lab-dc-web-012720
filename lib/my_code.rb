@@ -63,7 +63,6 @@ def reduce_to_any_true(source_array)
     else if source_array[index] == true
       return true
     end
-    end
   index += 1
   end
 end
